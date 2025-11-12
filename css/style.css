@@ -336,9 +336,9 @@ body {
   }
 }
 /* da rivedere a 1024px */
-@media (min-width: 1023px) and (max-width: 1190px) {
+@media (min-width: 1023px) and (max-width: 1079px) {
   .info-text1 {
-    bottom: -250px !important;
+    bottom: -257px !important;
     font-size: 1rem !important;
     white-space: pre-line !important;
   }
@@ -356,5 +356,29 @@ body {
 @media (min-width: 319px) and (max-width: 380px) {
   .logos .logo {
     height: 32px;
+  }
+}
+
+@media (min-width: 1085px) and (max-width: 1090px) {
+  .info-text1 {
+    bottom: -229px !important;
+  }
+}
+
+@media (min-width: 1079px) and (max-width: 1190px) {
+  .info-text1 {
+    bottom: -231px;
+  }
+  .main-text {
+    font-size: 1.6rem;
+  }
+  .info-text h2 {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 1172px) and (max-width: 1189px) {
+  .info-text1 {
+    bottom: -255px;
   }
 }
